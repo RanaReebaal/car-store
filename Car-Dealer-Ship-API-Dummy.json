@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "num_models": 3,
+        "max_car_id": 104,
+        "name": "Chrysler",
+        "avg_price": 32971.666666666664,
+        "avg_horsepower": 291.3333333333333,
+        "img_url": "https://source.unsplash.com/1200x900/?chrysler,cars"
+    },
+    {
+        "id": 2,
+        "num_models": 8,
+        "max_car_id": 152,
+        "name": "Honda",
+        "avg_price": 27965,
+        "avg_horsepower": 190.625,
+        "img_url": "https://source.unsplash.com/1200x900/?honda,cars"
+    },
+    {
+        "id": 3,
+        "num_models": 18,
+        "max_car_id": 270,
+        "name": "Mercedes-Benz",
+        "avg_price": 80681.94444444444,
+        "avg_horsepower": 333.94444444444446,
+        "img_url": "https://source.unsplash.com/1200x900/?mercedes,cars"
+    },
+    {
+        "id": 4,
+        "num_models": 6,
+        "max_car_id": 307,
+        "name": "Ram",
+        "avg_price": 31406.666666666668,
+        "avg_horsepower": 299.8333333333333,
+        "img_url": "https://source.unsplash.com/1200x900/?ram,cars"
+    },
+    {
+        "id": 5,
+        "num_models": 19,
+        "max_car_id": 125,
+        "name": "Ford",
+        "avg_price": 34998.68421052631,
+        "avg_horsepower": 281.2631578947368,
+        "img_url": "https://source.unsplash.com/1200x900/?ford,cars"
+    },
+    {
+        "id": 6,
+        "num_models": 9,
+        "max_car_id": 146,
+        "name": "Gmc",
+        "avg_price": 40609.444444444445,
+        "avg_horsepower": 292.3333333333333,
+        "img_url": "https://source.unsplash.com/1200x900/?gmc,cars"
+    },
+    {
+        "id": 7,
+        "num_models": 22,
+        "max_car_id": 21,
+        "name": "Audi",
+        "avg_price": 66631.81818181818,
+        "avg_horsepower": 340.59090909090907,
+        "img_url": "https://source.unsplash.com/1200x900/?audi,cars"
+    },
+    {
+        "id": 8,
+        "num_models": 7,
+        "max_car_id": 330,
+        "name": "Subaru",
+        "avg_price": 27159.285714285714,
+        "avg_horsepower": 192.14285714285714,
+        "img_url": "https://source.unsplash.com/1200x900/?subaru,cars"
+    },
+    {
+        "id": 9,
+        "num_models": 6,
+        "max_car_id": 315,
+        "name": "Rolls-royce",
+        "avg_price": 394858.3333333333,
+        "avg_horsepower": 518.1666666666666,
+        "img_url": "https://source.unsplash.com/1200x900/?royce,cars"
+    },
+    {
+        "id": 10,
+        "num_models": 8,
+        "max_car_id": 301,
+        "name": "Porsche",
+        "avg_price": 203787.5,
+        "avg_horsepower": 475.25,
+        "img_url": "https://source.unsplash.com/1200x900/?porsche,cars"
+    },
+    {
+        "id": 11,
+        "num_models": 31,
+        "max_car_id": 64,
+        "name": "Bmw",
+        "avg_price": 74501.6129032258,
+        "avg_horsepower": 379.2258064516129,
+        "img_url": "https://source.unsplash.com/1200x900/?bmw,cars"
+    },
+    {
+        "id": 12,
+        "num_models": 7,
+        "max_car_id": 371,
+        "name": "Volvo",
+        "avg_price": 45967.857142857145,
+        "avg_horsepower": 285.2857142857143,
+        "img_url": "https://source.unsplash.com/1200x900/?volvo,cars"
+    },
+    {
+        "id": 13,
+        "num_models": 5,
+        "max_car_id": 236,
+        "name": "Lincoln",
+        "avg_price": 45836,
+        "avg_horsepower": 324.6,
+        "img_url": "https://source.unsplash.com/1200x900/?lincoln,cars"
+    },
+    {
+        "id": 14,
+        "num_models": 4,
+        "max_car_id": 245,
+        "name": "Maserati",
+        "avg_price": 139934,
+        "avg_horsepower": 444,
+        "img_url": "https://source.unsplash.com/1200x900/?maserati,cars"
+    },
+    {
+        "id": 15,
+        "num_models": 4,
+        "max_car_id": 3,
+        "name": "Acura",
+        "avg_price": 45752.5,
+        "avg_horsepower": 286.75,
+        "img_url": "https://source.unsplash.com/1200x900/?acura,cars"
+    },
+    {
+        "id": 16,
+        "num_models": 2,
+        "max_car_id": 254,
+        "name": "Mclaren",
+        "avg_price": 272862.5,
+        "avg_horsepower": 641,
+        "img_url": "https://source.unsplash.com/1200x900/?mclaren,cars"
+    },
+    {
+        "id": 17,
+        "num_models": 8,
+        "max_car_id": 177,
+        "name": "Infiniti",
+        "avg_price": 45612.5,
+        "avg_horsepower": 311.375,
+        "img_url": "https://source.unsplash.com/1200x900/?infiniti,cars"
+    },
+    {
+        "id": 18,
+        "num_models": 3,
+        "max_car_id": 115,
+        "name": "Fiat",
+        "avg_price": 24535,
+        "avg_horsepower": 158.33333333333334,
+        "img_url": "https://source.unsplash.com/1200x900/?fiat,cars"
+    },
+    {
+        "id": 19,
+        "num_models": 6,
+        "max_car_id": 319,
+        "name": "Scion",
+        "avg_price": 20232.5,
+        "avg_horsepower": 145.66666666666666,
+        "img_url": "https://source.unsplash.com/1200x900/?scion,cars"
+    },
+    {
+        "id": 20,
+        "num_models": 7,
+        "max_car_id": 112,
+        "name": "Dodge",
+        "avg_price": 42466.42857142857,
+        "avg_horsepower": 352.14285714285717,
+        "img_url": "https://source.unsplash.com/1200x900/?dodge,cars"
+    },
+    {
+        "id": 21,
+        "num_models": 3,
+        "max_car_id": 67,
+        "name": "Bentley",
+        "avg_price": 235800,
+        "avg_horsepower": 540.3333333333334,
+        "img_url": "https://source.unsplash.com/1200x900/?bentley,cars"
+    },
+    {
+        "id": 22,
+        "num_models": 5,
+        "max_car_id": 11,
+        "name": "Aston-Martin",
+        "avg_price": 199819,
+        "avg_horsepower": 531,
+        "img_url": "https://source.unsplash.com/1200x900/?aston,cars"
+    },
+    {
+        "id": 23,
+        "num_models": 19,
+        "max_car_id": 100,
+        "name": "Chevrolet",
+        "avg_price": 33572.36842105263,
+        "avg_horsepower": 250.8421052631579,
+        "img_url": "https://source.unsplash.com/1200x900/?chevrolet,cars"
+    },
+    {
+        "id": 24,
+        "num_models": 6,
+        "max_car_id": 206,
+        "name": "Land-Rover",
+        "avg_price": 60779.166666666664,
+        "avg_horsepower": 304,
+        "img_url": "https://source.unsplash.com/1200x900/?rover,cars"
+    },
+    {
+        "id": 25,
+        "num_models": 7,
+        "max_car_id": 274,
+        "name": "Mitsubishi",
+        "avg_price": 23680.714285714286,
+        "avg_horsepower": 152.14285714285714,
+        "img_url": "https://source.unsplash.com/1200x900/?mitsubishi,cars"
+    },
+    {
+        "id": 26,
+        "num_models": 12,
+        "max_car_id": 363,
+        "name": "Volkswagen",
+        "avg_price": 29929.583333333332,
+        "avg_horsepower": 203.08333333333334,
+        "img_url": "https://source.unsplash.com/1200x900/?volkswagen,cars"
+    },
+    {
+        "id": 27,
+        "num_models": 21,
+        "max_car_id": 339,
+        "name": "Toyota",
+        "avg_price": 36709.76190476191,
+        "avg_horsepower": 209.23809523809524,
+        "img_url": "https://source.unsplash.com/1200x900/?toyota,cars"
+    },
+    {
+        "id": 28,
+        "num_models": 6,
+        "max_car_id": 187,
+        "name": "Jeep",
+        "avg_price": 33440.833333333336,
+        "avg_horsepower": 239.83333333333334,
+        "img_url": "https://source.unsplash.com/1200x900/?jeep,cars"
+    },
+    {
+        "id": 29,
+        "num_models": 14,
+        "max_car_id": 160,
+        "name": "Hyundai",
+        "avg_price": 32676.428571428572,
+        "avg_horsepower": 246.5,
+        "img_url": "https://source.unsplash.com/1200x900/?hyundai,cars"
+    },
+    {
+        "id": 30,
+        "num_models": 13,
+        "max_car_id": 76,
+        "name": "Cadillac",
+        "avg_price": 61818.46153846154,
+        "avg_horsepower": 372.15384615384613,
+        "img_url": "https://source.unsplash.com/1200x900/?cadillac,cars"
+    },
+    {
+        "id": 31,
+        "num_models": 2,
+        "max_car_id": 199,
+        "name": "Lamborghini",
+        "avg_price": 393025,
+        "avg_horsepower": 665,
+        "img_url": "https://source.unsplash.com/1200x900/?lamborghini,cars"
+    },
+    {
+        "id": 32,
+        "num_models": 25,
+        "max_car_id": 222,
+        "name": "Lexus",
+        "avg_price": 52488.2,
+        "avg_horsepower": 290.32,
+        "img_url": "https://source.unsplash.com/1200x900/?lexus,cars"
+    },
+    {
+        "id": 33,
+        "num_models": 2,
+        "max_car_id": 6,
+        "name": "Alfa-Romeo",
+        "avg_price": 59900,
+        "avg_horsepower": 237,
+        "img_url": "https://source.unsplash.com/1200x900/?romeo,cars"
+    },
+    {
+        "id": 34,
+        "num_models": 6,
+        "max_car_id": 242,
+        "name": "Mini",
+        "avg_price": 27158.333333333332,
+        "avg_horsepower": 154.33333333333334,
+        "img_url": "https://source.unsplash.com/1200x900/?mini,cars"
+    },
+    {
+        "id": 35,
+        "num_models": 9,
+        "max_car_id": 191,
+        "name": "Kia",
+        "avg_price": 28725.555555555555,
+        "avg_horsepower": 216.11111111111111,
+        "img_url": "https://source.unsplash.com/1200x900/?kia,cars"
+    },
+    {
+        "id": 36,
+        "num_models": 4,
+        "max_car_id": 118,
+        "name": "Ferrari",
+        "avg_price": 276428,
+        "avg_horsepower": 633,
+        "img_url": "https://source.unsplash.com/1200x900/?ferrari,cars"
+    },
+    {
+        "id": 37,
+        "num_models": 6,
+        "max_car_id": 251,
+        "name": "Mazda",
+        "avg_price": 22278.333333333332,
+        "avg_horsepower": 163.5,
+        "img_url": "https://source.unsplash.com/1200x900/?mazda,cars"
+    },
+    {
+        "id": 38,
+        "num_models": 19,
+        "max_car_id": 283,
+        "name": "Nissan",
+        "avg_price": 36314.73684210526,
+        "avg_horsepower": 251.21052631578948,
+        "img_url": "https://source.unsplash.com/1200x900/?nissan,cars"
+    },
+    {
+        "id": 39,
+        "num_models": 3,
+        "max_car_id": 68,
+        "name": "Buick",
+        "avg_price": 31050,
+        "avg_horsepower": 236.33333333333334,
+        "img_url": "https://source.unsplash.com/1200x900/?buick,cars"
+    },
+    {
+        "id": 40,
+        "num_models": 6,
+        "max_car_id": 183,
+        "name": "Jaguar",
+        "avg_price": 63783.333333333336,
+        "avg_horsepower": 327.5,
+        "img_url": "https://source.unsplash.com/1200x900/?jaguar,cars"
+    }
+]
