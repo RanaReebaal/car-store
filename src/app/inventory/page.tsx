@@ -17,6 +17,8 @@ export default function Page() {
   const [filteredData, setFilteredData] = useState([]);
   const [data, setData] = useState([]); // State to hold fetched car data
   const [loading, setLoading] = useState(true);
+  const [searchLoader, setSearchLoader] = useState(false);
+
   const [hovered, setHovered] = useState(null);
 
   const sliderSettings = {
@@ -85,9 +87,11 @@ export default function Page() {
 
   const submitSearch = async (formData: any) => {
     try {
+      setSearchLoader(true);
       const response = await axios.post("/api/search", formData);
       setData(response.data); // Update data state with search results
-      setCurrentPage(0); // Reset current page to first page
+      setCurrentPage(0);
+      setSearchLoader(false); // Reset current page to first page
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -168,11 +172,6 @@ export default function Page() {
       <br />
       {/* <br /><br /><br /><br /> */}
       <div className="w-full my-20">
-        {/* <header className="container mx-auto px-6 flex justify-center w-full">
-          <div className="flex justify-center w-full">
-            <h1 className="text-3xl font-bold mb-4 flex text-center">See what we have got!</h1>
-          </div>
-        </header> */}
         <div className="flex justify-end md:pr-32 pr-28">
           <ReactPaginate
             containerClassName={"pagination"}
@@ -198,7 +197,7 @@ export default function Page() {
           />
         </div><br />
 
-        {loading ? (
+        {searchLoader || loading ? (
           <>
             {/* // <p className="text-center">Loading car data...</p> */}
             <div id="loading-overlay" className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900 bg-opacity-60">
@@ -229,35 +228,6 @@ export default function Page() {
         ) : (
           <>
             {data.length > 0 ? (
-              // <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-10 px-6 text-center'>
-              //   {filteredData.map((item:any) => (
-              //     <div key={item.id} className="rounded-2xl hover:scale-105 transition duration-700 ease-in-out item py-4 card shadow-2xl overflow-hidden">
-              //       <Slider {...sliderSettings}>
-              //         {item.photourls?.split(',').map((url:any, index:any) => (
-              //           <div key={index}>
-              //             <img className="w-[600px] h-[300px] object-cover rounded-t-2xl"
-              //               src={url || 'https://st4.depositphotos.com/14953852/24787/v/450/depositphotos_247872612-stock-illustration-no-image-available-icon-vector.jpg'} // Display placeholder image if photourls array is empty
-              //               width={600}
-              //               height={300}
-              //               alt={item.name}
-              //             />
-              //           </div>
-              //         ))}
-              //       </Slider>
-              //       <div className="p-4 text-left">
-              //         <h3 className="font-bold text-xl tracking-widest">{item.make}, {item.model}</h3>
-              //         <p className="font-normal text-lg tracking-widest">Price: ${parseFloat(item.sellingprice).toFixed(0)}</p>
-              //         {/* <p className="font-normal text-lg tracking-widest">{item.description}</p> */}
-              //       </div>
-              //       <Link href={`/inventory/${item.uuid}`}>
-              //         <button className="rounded-xl group relative min-h-[50px] w-40 overflow-hidden border border-gray-400 bg-white text-gray-700 shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-0 before:w-1/4 before:bg-gray-700 before:duration-500 after:absolute after:bottom-0 after:right-0 after:h-0 after:w-1/4 after:bg-gray-700 after:duration-500 hover:text-white hover:before:h-full hover:after:h-full">
-              //           <span className="top-0 flex h-full w-full items-center justify-center before:absolute before:bottom-0 before:left-1/4 before:z-0 before:h-0 before:w-1/4 before:bg-gray-700 before:duration-500 after:absolute after:right-1/4 after:top-0 after:z-0 after:h-0 after:w-1/4 after:bg-gray-700 after:duration-500 hover:text-white group-hover:before:h-full group-hover:after:h-full"></span>
-              //           <span className="absolute bottom-0 left-0 right-0 top-0 z-10 flex h-full w-full items-center justify-center group-hover:text-white">View Item</span>
-              //         </button>
-              //       </Link>
-              //     </div>
-              //   ))}
-              // </div>
               <>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 px-6 text-center'>
                   {filteredData.map((item: any) => (
@@ -356,5 +326,5 @@ export default function Page() {
         )}
       </div >
     </>
-  );
+  )
 }
