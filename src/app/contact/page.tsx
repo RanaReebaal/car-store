@@ -76,7 +76,7 @@ const SearchBar: React.FC = () => {
               <form onSubmit={handleSubmit}>
                 <div className="mt-8">
                   <label htmlFor="customerName" className="text-base block font-bold">Customer Name</label><br />
-                  <div className="relative flex items-center">
+                  <div className="flex items-center">
                     <input type="text" id="customerName" value={customerName} onChange={e => setCustomerName(e.target.value)} name="customer_email" required className="w-full text-sm border-b border-gray-300 focus:border-[#333] px-2 py-3 outline-none" placeholder="Enter Customer Name" />
                   </div>
                 </div>
@@ -84,14 +84,14 @@ const SearchBar: React.FC = () => {
                 <div className="mt-8">
                   <div className="mt-8">
                     <label htmlFor="customerPhone" className="text-base block font-bold">Customer Phone</label><br />
-                    <div className="relative flex items-center">
+                    <div className="flex items-center">
                       <input type="tel" id="customerPhone" value={customerPhone} onChange={handlePhoneChange} required className="w-full text-sm border-b border-gray-300 focus:border-[#333] px-2 py-3 outline-none" placeholder="Enter Customer Phone No" />
                     </div>
                   </div>
 
                   <div className="mt-8">
                     <label htmlFor="customerEmail" className="text-base block font-bold">Customer Email</label><br />
-                    <div className="relative flex items-center">
+                    <div className="flex items-center">
                       <input type="email" id="customerEmail" value={customerEmail} onChange={e => setCustomerEmail(e.target.value)} name="customer_email" required className="w-full text-sm border-b border-gray-300 focus:border-[#333] px-2 py-3 outline-none" placeholder="Enter Email Address" />
                     </div>
                   </div>

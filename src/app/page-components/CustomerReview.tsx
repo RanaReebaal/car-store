@@ -10,15 +10,15 @@ function CustomerReview() {
 	return (
 		<>
 			<main className="md:hidden flex w-full justify-center align-middle">
-				<Link href="/inventory">
-					<button className="group relative h-12 w-full px-5 overflow-hidden rounded-lg bg-white text-lg shadow">
+				<Link href="/inventory" className="mr-10">
+					<button className="border border-slate-500 group relative h-12 w-full px-5 overflow-hidden rounded-lg bg-white text-lg shadowm-0">
 						<div className="absolute inset-0 w-3 bg-slate-600 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
 						<span className="relative text-black group-hover:text-white">Inventory</span>
 					</button>
 				</Link>
 				<Link href="/contact">
-					<button className="group relative h-12 w-full px-5 overflow-hidden rounded-lg bg-white text-lg shadow">
-						<div className="absolute inset-0 w-3 bg-amber-600 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+					<button className="border border-slate-500 group relative h-12 w-full px-5 overflow-hidden rounded-lg bg-white text-lg shadow">
+						<div className="absolute inset-0 w-3 bg-slate-600 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
 						<span className="relative text-black group-hover:text-white">Contact!</span>
 					</button>
 				</Link>

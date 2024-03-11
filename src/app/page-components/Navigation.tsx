@@ -42,7 +42,7 @@ export const SearchBar = () => {
   );
 };
 
-export const Logo = () => {
+export const Logo_ham_close = () => {
   return (
     <div>
       <h1 className="text-4xl font-signature ml-2">
@@ -52,7 +52,24 @@ export const Logo = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img className='w-44 h-[90px]' src="/logo.png" alt="logo" />
+          <img className='w-48 h-[90px]' src="/logo.png" alt="logo" />
+        </a>
+      </h1>
+    </div>
+  );
+};
+
+export const Logo_ham_open = () => {
+  return (
+    <div>
+      <h1 className="text-4xl font-signature ml-2">
+        <a
+          className="link-underline link-underline-black"
+          href=""
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className='w-28 h-[90px]' src="/logo.png" alt="logo" />
         </a>
       </h1>
     </div>
@@ -83,7 +100,7 @@ const Navigation = () => {
     <>
       <div className="flex items-center w-full h-20 pr-2 pl-4 text-white bg-gray-500 nav">
 
-        {!nav && <Logo />}
+        {!nav && <Logo_ham_close />}
 
         <ul className="hidden md:flex md:justify-end w-[57%]">
           <li className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-100 hover:scale-110 hover:text-white duration-500 link-underline">
@@ -109,13 +126,16 @@ const Navigation = () => {
           onClick={toggleNavLogo}
           className="w-[100%] cursor-pointer pr-4 z-10 md:hidden flex items-center justify-between"
         >
-          <div> {nav && <Logo />} </div>
-          <div className="text-orange-500"> {nav ? <FaTimes size={30} /> : <FaBars size={30} />} </div>
+          <div> {nav && <Logo_ham_open />} </div>
+          <div className="text-white"> {nav ? <FaTimes size={30} /> : <FaBars size={30} />} </div>
         </div>
         {nav && (
           <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-black text-slate-600">
+            <li className="px-4 cursor-pointer capitalize py-6 text-2xl text-gray-100">
+              <Link href="/">Home</Link>
+            </li>
             {links.map(({ id, name, link }) => (
-              <li key={id} className="px-4 cursor-pointer capitalize py-6 text-2xl">
+              <li key={id} className="px-4 cursor-pointer capitalize py-6 text-2xl text-gray-100">
                 <Link onClick={() => setNav(!nav)} href={link}>
                   {name}
                 </Link>

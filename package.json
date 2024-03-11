@@ -22,7 +22,8 @@
     "react-toastify": "^10.0.4",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.10.6",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "vercel": "^33.5.5"
   },
   "devDependencies": {
     "@types/node": "^20",
